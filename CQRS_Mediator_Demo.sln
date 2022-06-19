@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CqrsMediator.Api", "CqrsMediator.Api\CqrsMediator.Api.csproj", "{62140D6C-3641-4652-8C17-BBD1CE25E0F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CqrsMediator.Domain", "CqrsMediator.Domain\CqrsMediator.Domain.csproj", "{4333F8A7-80C4-45BD-BA56-2AD5DD529FA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CqrsMediator.Infrastructure", "CqrsMediator.Infrastructure\CqrsMediator.Infrastructure.csproj", "{3ACEB4E4-9B4D-49CE-A057-DC6C19776D8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CqrsMediator.Application", "CqrsMediator.Application\CqrsMediator.Application.csproj", "{42313222-4922-4AE8-9B9B-9250610EBDB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{A9F3EBB2-0FBF-4517-99F8-55405C590118}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62140D6C-3641-4652-8C17-BBD1CE25E0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62140D6C-3641-4652-8C17-BBD1CE25E0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62140D6C-3641-4652-8C17-BBD1CE25E0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62140D6C-3641-4652-8C17-BBD1CE25E0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4333F8A7-80C4-45BD-BA56-2AD5DD529FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4333F8A7-80C4-45BD-BA56-2AD5DD529FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4333F8A7-80C4-45BD-BA56-2AD5DD529FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4333F8A7-80C4-45BD-BA56-2AD5DD529FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACEB4E4-9B4D-49CE-A057-DC6C19776D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACEB4E4-9B4D-49CE-A057-DC6C19776D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACEB4E4-9B4D-49CE-A057-DC6C19776D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACEB4E4-9B4D-49CE-A057-DC6C19776D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42313222-4922-4AE8-9B9B-9250610EBDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42313222-4922-4AE8-9B9B-9250610EBDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42313222-4922-4AE8-9B9B-9250610EBDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42313222-4922-4AE8-9B9B-9250610EBDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17C8C22C-4F1E-4802-806D-4BFC2355CFA0}
+	EndGlobalSection
+EndGlobal
